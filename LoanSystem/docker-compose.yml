@@ -15,7 +15,7 @@ services:
        
   angular:
     build:
-      context: E:\\Angular_Workspace\\LoanManagement
+      context: https://github.com/venkatesh-buddy/Angular.git#:LoanManagement/
     image: loanangular
     ports:
       - 8083:80       
